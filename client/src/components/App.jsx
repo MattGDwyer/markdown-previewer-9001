@@ -1,7 +1,7 @@
 // can i use a plain jsx object somewhere? Maybe the header?
 
 import React from 'react';
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
 
 // components
 const Header = () => {
