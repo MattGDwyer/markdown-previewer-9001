@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- React, JSX-->
   <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
   <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
@@ -20,12 +20,14 @@
   rel="stylesheet"
   href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
 />
-  <script src="./app.js"></script>
+  <!-- <script src="./app.js"></script> -->
   <title>React Markdown Previewer</title>
 
 </head>
 
-<body id="app">
+<body>
+  <div id="app"></div>
+  <script src="../client/src/index.js"></script>
 </body>
 
 

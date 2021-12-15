@@ -1,10 +1,9 @@
 // can i use a plain jsx object somewhere? Maybe the header?
-'use strict';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-components
+// components
 const Header = () => {
   return (
     <header>
@@ -42,5 +41,4 @@ class App extends React.Component {
   }
 };
 
-// Render Function
-ReactDOM.render(<App />, document.getElementById('app'));
+export default App;
